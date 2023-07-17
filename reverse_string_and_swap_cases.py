@@ -2,6 +2,7 @@ org_string = 'eNGINEER devOps is hArSh'
 print("Original String: ", org_string)
 reverse_string = org_string.split()[::-1]
 swapped_list = []
+#ord function calculates the ASCII value
 for i in reverse_string:
     for c in i:
         if(ord(c) >= 97 and ord(c) <= 122):
